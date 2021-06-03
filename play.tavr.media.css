@@ -81,9 +81,16 @@ main .container .channel-list .channel-item .item-container {
   max-height: 100%;
   height: 100%;
   box-sizing: border-box;
-  color: #afafaf;
 }
-main .container .channel-list .channel-item:not(.active) .item-container {background-color: transparent;}
+main .container .channel-list .channel-item:not(.active) .item-container {
+  color: #afafaf;
+  background-color: transparent;
+}
+main .container .channel-list .channel-item:not(.active) .item-container:hover {
+  color: #fff;
+  background-color: rgba(30,30,30,0.3)
+}
+
 /* main .container .channel-list .channel-item .item-container::before {color: #afafaf;} */
 /* main .container .channel-list .channel-item .item-container > span {} */
 main .container .channel-list .channel-item.active  .item-container{
