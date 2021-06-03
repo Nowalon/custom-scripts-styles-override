@@ -36,6 +36,8 @@ header .partner-container {
 #player {
  height: auto;
  border-radius: 8px;
+ width: 400px;
+ opacity: 0.85;
 }
 main .container {
   display: block;
