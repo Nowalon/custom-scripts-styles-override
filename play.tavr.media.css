@@ -75,6 +75,7 @@ main .container .channel-list .channel-item {
   height: 61px;
   overflow: hidden;
   margin: 0;
+  flex-basis: 33%;
 }
 main .container .channel-list .channel-item .item-container {
   min-height: 100%;
