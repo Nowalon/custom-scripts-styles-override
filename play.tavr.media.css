@@ -82,7 +82,6 @@ main .container .channel-list .channel-item .item-container {
   max-height: 100%;
   height: 100%;
   box-sizing: border-box;
-  white-space: nowrap;
 }
 main .container .channel-list .channel-item:not(.active) .item-container {
   color: #afafaf;
