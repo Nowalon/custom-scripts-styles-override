@@ -142,6 +142,7 @@ main .container .item.item-2 {
 .cover-cur img {
   width: 100%;
   height: auto;
+  box-shadow: 0px 0px 30px 0px rgba(20, 20, 20, 0.8);
 }
 .singer-song-centre.first_song {
   margin: 0;
