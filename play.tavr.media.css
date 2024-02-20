@@ -19,7 +19,7 @@ header {
   position: initial;
 }
 header .partner-container {
-  height: 4opx;
+  height: 0px;
   position: absolute;
   bottom: 0;
   left: 0;
