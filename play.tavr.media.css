@@ -12,7 +12,8 @@ header .header-logo .item-3,
 main .container .item.item-3,
 .partner_player_menu .item.kissfm, .partner_player_menu .item.rusradio, 
 #stream-ukr, #stream-flash,
-a[href="https://www.radioroks.ua/donate/"]
+a[href="https://www.radioroks.ua/donate/"],
+.partner-container + a[target="_blank"]
 { display: none !important; }
 
 header {
