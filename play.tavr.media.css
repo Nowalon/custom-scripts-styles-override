@@ -5,15 +5,16 @@
 .song-list:not(#currentSong),
 header .header-logo .item-1,
 header .header-logo .item-3,
-.item item-3,
+.item .item-3,
 .fon-admixer,
 .slogan-container,
 .channel-centre .mobile-admixer.banner,
 main .container .item.item-3,
-.partner_player_menu .item.kissfm, .partner_player_menu .item.rusradio, 
+.partner_player_menu .item.kissfm, .partner_player_menu .item.rusradio,
 #stream-ukr, #stream-flash,
 a[href="https://www.radioroks.ua/donate/"],
-.partner-container + a[target="_blank"]
+.partner-container + a[target="_blank"],
+div[id^="vpb-ad-wrapped-generated-"]
 { display: none !important; }
 
 header {
@@ -29,7 +30,7 @@ header .partner-container {
 }
 .partner_player_menu {margin-right: 2px;}
 .header-logo {
-  position: absolute; 
+  position: absolute;
   z-index: 3;
   width: 50%;
   right: 0;
@@ -37,15 +38,15 @@ header .partner-container {
   background-color: transparent;
 }
 #player {
- height: auto;
- border-radius: 8px;
- width: 400px;
- opacity: 0.75;
+  height: auto;
+  border-radius: 8px;
+  width: 400px;
+  opacity: 0.75;
 }
 main .container {
   display: block;
   width: 100%;
-/* height: calc(100% - 40px); */
+  /* height: calc(100% - 40px); */
   height: 100%;
   background: #000;
   opacity: 0.99;
@@ -164,5 +165,5 @@ main .container .item.item-2 {
 }
 
 @media screen and (max-width: 992px) {
-.header-logo { top: 18%; }
+  .header-logo { top: 18%; }
 }
